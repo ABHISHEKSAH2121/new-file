@@ -1,0 +1,45 @@
+h1{
+       background-color:lightskyblue;
+      
+	
+	padding: 10px;
+	text-align: center;
+
+	color: green;
+
+
+
+
+}
+ 
+nav{ background:green; }
+
+nav ul{margin: 0; display: flex; justify-content: space-around; }
+
+nav ul li{
+    list-style: none; margin: 0.5%; padding: 1%; }
+
+nav ul li a{text-decoration: none; color: black; }
+
+{
+  box-sizing: border-box;
+}
+
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 1000px){
+    nav ul{ flex-direction: column; }
+    nav ul li{ width: 96%; margin: 1%; padding: 1%; }
+    div{ flex-direction: column ;}
+}

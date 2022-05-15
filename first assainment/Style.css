@@ -1,0 +1,28 @@
+nav{ background: green;}
+nav ul{ margin: 0; display: flex; justify-content: space-around; }
+nav ul li{
+    list-style: none; margin: 0.5%; padding: 1%; }
+nav ul li a{ text-decoration: none; color: black; }
+
+
+h1{
+
+color: green;
+padding: 10px;
+text-align: center;
+background-color: skyblue;
+
+}
+
+@media screen and (max-width: 1000px){
+    nav ul{ flex-direction: column; }
+    nav ul li{ width: 96%; margin: 1%; padding: 1%; }
+    div{ flex-direction: column ;}
+}
+section{
+    background-color: aliceblue;
+    padding: 20px;
+    margin: 1px;
+    height: 300px;
+    width: auto;
+}
